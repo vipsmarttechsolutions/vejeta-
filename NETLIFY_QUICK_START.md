@@ -5,6 +5,7 @@
 ### Using Netlify's Git Integration (EASIEST)
 
 1. **Push to GitHub**
+
    ```bash
    git remote add origin https://github.com/YOUR_USERNAME/repository-name.git
    git push -u origin main
@@ -75,13 +76,13 @@ netlify deploy --prod
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| Build fails | Check `npm run build` works locally |
-| Routes don't work | `netlify.toml` has redirect rule |
-| Images missing | Verify in `/public` folder |
-| Styles broken | Clear cache → redeploy |
-| Domain not working | Check DNS settings |
+| Issue              | Solution                            |
+| ------------------ | ----------------------------------- |
+| Build fails        | Check `npm run build` works locally |
+| Routes don't work  | `netlify.toml` has redirect rule    |
+| Images missing     | Verify in `/public` folder          |
+| Styles broken      | Clear cache → redeploy              |
+| Domain not working | Check DNS settings                  |
 
 ---
 
@@ -100,6 +101,7 @@ ANOTHER_KEY=another_value
 ## Automatic Deployments
 
 Netlify automatically deploys when you push to GitHub:
+
 1. Make changes locally
 2. Commit: `git commit -m "Update"`
 3. Push: `git push origin main`
@@ -136,6 +138,7 @@ netlify deploy --build
 ---
 
 ## Performance Optimization (Already Done)
+
 - ✅ Code minification
 - ✅ Image optimization needed (future)
 - ✅ Gzip compression enabled
@@ -155,6 +158,7 @@ netlify deploy --build
 ## Summary Command
 
 Everything in one command:
+
 ```bash
 # From project directory
 git remote add origin YOUR_GITHUB_URL
@@ -166,5 +170,5 @@ git push -u origin main
 
 ---
 
-*Project: Vejeeta Defence Training Website*
-*Status: ✅ Ready for Deployment*
+_Project: Vejeeta Defence Training Website_
+_Status: ✅ Ready for Deployment_

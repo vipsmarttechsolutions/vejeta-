@@ -1,11 +1,13 @@
 # 🎖️ Vejeeta Defence Training Website - Project Summary
 
 ## Project Overview
+
 A modern, fully-functional Defence Training Website with interactive program details, smooth animations, and comprehensive course information.
 
 ## 🚀 Key Features Implemented
 
 ### 1. **Interactive Program System**
+
 - 6 comprehensive training programs (NDA, SSC, AFCAT, CAPF, Police, Nursing)
 - Clickable program cards on home page
 - Dedicated detail pages for each program
@@ -15,6 +17,7 @@ A modern, fully-functional Defence Training Website with interactive program det
 - Success stories per program
 
 ### 2. **Modern Animations**
+
 - Parallax scrolling on hero sections
 - Gradient text animations
 - Icon rotation and scale effects on hover
@@ -24,12 +27,14 @@ A modern, fully-functional Defence Training Website with interactive program det
 - Button hover animations with shadow effects
 
 ### 3. **Responsive Design**
+
 - Mobile-first approach
 - Optimized for sm, md, lg breakpoints
 - Touch-friendly interface
 - Adaptive layouts
 
 ### 4. **Navigation System**
+
 - Fixed top navigation with logo
 - Right-aligned menu items (Home, About, Programs, Contact)
 - Active state indicators with smooth transitions
@@ -37,6 +42,7 @@ A modern, fully-functional Defence Training Website with interactive program det
 - WhatsApp integration button
 
 ### 5. **Success Stories Carousel**
+
 - Continuous auto-scrolling carousel
 - Smooth right-to-left animation
 - 9 success stories with student images
@@ -44,6 +50,7 @@ A modern, fully-functional Defence Training Website with interactive program det
 - Manual navigation controls
 
 ## 📁 Project Structure
+
 ```
 src/
 ├── app/
@@ -69,7 +76,8 @@ src/
 ```
 
 ## 🎨 Design System
-- **Primary Colors**: 
+
+- **Primary Colors**:
   - Green: #1F3D2B
   - Orange: #F28C28
   - Gold: #FFD43B
@@ -82,6 +90,7 @@ src/
 - **Icons**: Lucide React
 
 ## 📊 Performance Metrics
+
 - Build size: ~412 KB (gzip: ~121 KB)
 - CSS: ~130 KB (gzip: ~19 KB)
 - Optimized for fast loading
@@ -89,6 +98,7 @@ src/
 - Production build ready
 
 ## 🔧 Tech Stack
+
 - **Frontend**: React 18+ with TypeScript
 - **Bundler**: Vite
 - **Styling**: Tailwind CSS
@@ -98,6 +108,7 @@ src/
 - **Build Tool**: Vite
 
 ## 📦 Build & Deployment
+
 - **Build Command**: `npm run build`
 - **Dev Server**: `npm run dev`
 - **Output**: `dist/` folder
@@ -105,6 +116,7 @@ src/
 - **Configuration**: `netlify.toml`
 
 ## 🎯 All Programs Included
+
 1. **NDA - National Defence Academy**
    - Eligibility: 10+2 students
    - Duration: 12 months
@@ -130,6 +142,7 @@ src/
    - Duration: 7-9 months
 
 ## ✅ Completed Tasks
+
 - ✅ Home page with hero section
 - ✅ Programs listing page
 - ✅ Interactive program cards
@@ -146,6 +159,7 @@ src/
 - ✅ Netlify configuration
 
 ## 🚀 Deployment Steps
+
 1. Create GitHub repository
 2. Push code to GitHub:
    ```bash
@@ -157,6 +171,7 @@ src/
 5. Access your live site!
 
 ## 📝 Configuration Files
+
 - `vite.config.ts` - Vite configuration
 - `tsconfig.json` - TypeScript configuration
 - `tailwind.config.js` - Tailwind CSS configuration
@@ -165,6 +180,7 @@ src/
 - `.gitignore` - Git ignore rules
 
 ## 🎓 Key Learning Points
+
 - React component architecture
 - TypeScript for type safety
 - Tailwind CSS for utility-first styling
@@ -175,18 +191,22 @@ src/
 - Netlify deployment workflow
 
 ## 📄 Documentation
+
 - `README.md` - Project overview
 - `DEPLOYMENT.md` - Deployment instructions
 - `ATTRIBUTIONS.md` - Attributions
 - `guidelines/Guidelines.md` - Design guidelines
 
 ## 🔗 Links
+
 - Local Development: http://localhost:5174
 - Production Build: Ready in `dist/` folder
 - Deployment: Netlify (see DEPLOYMENT.md)
 
 ## 📧 Contact & Support
+
 For queries about the website features:
+
 - WhatsApp button available on all pages
 - Contact form on /contact page
 - Email link in footer
